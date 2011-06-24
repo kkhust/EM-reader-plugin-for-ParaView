@@ -1,0 +1,7 @@
+<ParaViewReaders>
+   <Reader
+       name = "EMReader"
+       extensions = "em"
+       file_description = "Cryo-electron tomogram">
+   </Reader>
+</ParaViewReaders>

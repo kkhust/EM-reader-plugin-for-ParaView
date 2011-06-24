@@ -1,0 +1,12 @@
+Note:
+This is the plugin of ParaView (http://www.paraview.org/), which serves as the reader of em data for electron microscopy.
+The source code is released under LGPL v3.0.
+
+Prerequisites:
+1. cmake
+2. ParaView compiled from source code
+
+Installation:
+1. set the ParaView_DIR to the directory of ParaViewConfig.cmake file
+2. cmake . && make
+3. open the paraview and load the generated dynamic library as the plugin

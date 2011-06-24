@@ -1,0 +1,12 @@
+<ServerManagerConfiguration>
+   <ProxyGroup name = "sources">
+      <SourceProxy name = "EMReader" class = "vtkEMReader" label="EM Reader">
+          <StringVectorProperty
+              name = "FileName"
+              command = "SetFileName"
+              number_of_elements = "1" >
+              <FileListDomain name = "files"/>
+          </StringVectorProperty>
+      </SourceProxy>
+   </ProxyGroup>
+</ServerManagerConfiguration>
